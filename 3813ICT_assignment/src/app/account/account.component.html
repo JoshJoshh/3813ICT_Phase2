@@ -1,0 +1,18 @@
+<form (submit)="createUser()" [style]="perm">
+  <input type="text" [(ngModel)]="UserName" name="UserName">
+  <input type="password" [(ngModel)]="Password" name="Password">
+  <input type="range" [(ngModel)]="Prmissin" name="Prmissin" min="0" max="2">
+  <input type="submit" value="submit">
+</form>
+<br>
+<form (submit)="deleteUser()" [style]="perm">
+  <input type="text" [(ngModel)]="UserName" name="UserName">
+  <input type="password" [(ngModel)]="Password" name="Password">
+  <input type="submit" value="submit">
+</form>
+<br>
+<form (submit)="logOut()">
+  <input type="submit" value="log out">
+</form>
+<app-document-list></app-document-list>
+<app-document></app-document>
