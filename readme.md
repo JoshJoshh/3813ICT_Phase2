@@ -1,6 +1,8 @@
 # Documentation
 
-## The git repository is the whole project, including the node.js server, the angular frontend and all the npm modules
+The git repository is the whole project, including the node.js server, the angular frontend and all the npm modules
+
+## Database
 
 entries categorised as "User" are stored in the mongodb database as follows:
 * _id: default ObjectId
@@ -20,6 +22,7 @@ entries categorised as "chat" are stored in the mongodb database as follows:
 * group: string containing parent group
 * messages: array of strings containing five most recent messages posted in chat
 
+## Angular
 
 The routes and components are as follows:
 * App: default component
